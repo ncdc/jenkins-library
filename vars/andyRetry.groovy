@@ -1,4 +1,4 @@
-def call { retry, cmd ->
+def call(retry, cmd) {
   def rc=0
 
   for(int i = 1; i <= retry; i++) {
